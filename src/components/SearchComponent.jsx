@@ -70,7 +70,7 @@ function SearchComponent({ list }) {
                 {userChips.map((chip, index) => (
                     <div
                         key={chip.id}
-                        className={`flex items-center bg-slate-200 rounded-xl px-1 mr-3 mb-2 hover:bg-slate-400 hover:cursor-pointer ${index === highlightedChip ? " bg-gray-400" : ""
+                        className={`flex items-center  rounded-xl px-1 mr-3 mb-2 hover:bg-slate-400 hover:cursor-pointer ${index === highlightedChip ? " bg-gray-400" : "bg-slate-200"
                             }`}
                     >
                         <img src={chip.avatar} alt="avatar" className=" w-4 h-4"/>
